@@ -1,34 +1,36 @@
 {
-  "name": "typescript-app-template",
-  "version": "1.0.0",
-  "description": "A starter template for typescript apps",
+  "name": "console-todo",
+  "version": "0.1.0",
+  "description": "A console-based to-do app written in typescript that runs on nodejs and levelup",
   "private": true,
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
-    "start": "tsc && node dist/index.js"
+    "start": "tsc && nodemon dist/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agrmohit/typescript-app-template.git"
+    "url": "git+https://github.com/agrmohit/console-todo.git"
   },
   "keywords": [
     "typescript",
-    "starter-template"
+    "levelup",
+    "todoapp"
   ],
   "author": "Mohit Raj",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/agrmohit/typescript-app-template/issues"
+    "url": "https://github.com/agrmohit/console-todo/issues"
   },
-  "homepage": "https://github.com/agrmohit/typescript-app-template#readme",
+  "homepage": "https://github.com/agrmohit/console-todo#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",
     "eslint": "^7.17.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
     "prettier": "^2.2.1",
     "typescript": "^4.1.3"
   }
