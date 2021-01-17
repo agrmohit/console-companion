@@ -9,7 +9,7 @@
   "jsxSingleQuote": false,
   "pluginSearchDirs": [],
   "plugins": [],
-  "printWidth": 120,
+  "printWidth": 80,
   "proseWrap": "preserve",
   "quoteProps": "as-needed",
   "rangeStart": 0,
