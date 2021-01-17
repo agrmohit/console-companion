@@ -1,11 +1,11 @@
 {
   "name": "concom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A console-based helper app with a todo list with more features planned",
   "private": false,
   "main": "dist/index.js",
   "bin": {
-    "concom": "./dist/index.js"
+    "concom": "dist/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\"",
